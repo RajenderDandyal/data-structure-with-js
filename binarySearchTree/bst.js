@@ -27,7 +27,7 @@ BFT is a better choice than DFT. Also, the path that BFT takes between any two n
 * */
 
 /* Binary Search Tree */
-const searchTree = require("./utils")
+
 class Node {
   constructor(data, left = null, right = null) {
     this.data = data;
