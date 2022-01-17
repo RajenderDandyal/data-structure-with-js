@@ -1,5 +1,15 @@
 // same as stack but reverse
 // FIFO first in first out
+// Priority Queue is an abstract data type, which is similar to a queue, 
+// however, in the priority queue, every element has some priority. 
+//The priority of the elements in a priority queue determines the order in which elements are removed from the priority queue.
+//Therefore all the elements are either arranged in an ascending or descending order.
+
+// So, a priority Queue is an extension of the queue with the following properties. 
+
+// Every item has a priority associated with it.
+// An element with high priority is dequeued before an element with low priority.
+// If two elements have the same priority, they are served according to their order in the queue.
 
 class PriorityQueue {
   constructor() {
